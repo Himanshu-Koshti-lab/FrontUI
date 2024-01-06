@@ -1,28 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <form action="" method="">
-        <!-- test input -->
-        <label for="FirstName">First name</label>
-        <input type="text" name="FirstName" id="FirstName">
-        <br><br>
-        <!-- password -->
-        <input type="password" name="password" id="" placeholder="enter your password">
-        <br><br>
-        <!-- email  -->
-        <input type="email" name="email" id="email" value="temp@email.com">
-        <br><br>
-        <p>Description</p>
-        <textarea name="" id="" cols="10" rows="10"></textarea>
-        <br><br>
+      <!-- test input -->
+      <label for="FirstName">First name</label>
+      <input type="text" name="FirstName" id="FirstName" />
+      <br /><br />
+      <!-- password -->
+      <input
+        type="password"
+        name="password"
+        id=""
+        placeholder="enter your password"
+      />
+      <br /><br />
+      <!-- email  -->
+      <input type="email" name="email" id="email" value="temp@email.com" />
+      <br /><br />
+      <p>Description</p>
+      <textarea name="" id="" cols="10" rows="10"></textarea>
+      <br /><br />
 
-<!-- validate email  -->
-        <input type="submit" value="submit here">
+      <!-- name shoud be same if want o pick one value  -->
+      <p>Language</p>
+      <input type="radio" name="language" value="java" />Java
+      <input type="radio" name="language" value="python" />python
+      <input type="radio" name="language" value="react" />React
+
+      <br /><br />
+      <!-- name shoud be same if want o pick multiple value  -->
+      <p>Language</p>
+      <input type="checkbox" name="code" value="java" />Java
+      <input type="checkbox" name="code" value="python" />python
+      <input type="checkbox" name="code" value="react" />React
+
+      <br /><br />
+      <!-- Pick value from dropdown with select tag  -->
+
+      <select name="language" id="">
+        <option value="java">Java</option>
+        <option value="python">Python</option>
+        <option value="react">React</option>
+      </select>
+
+      <br /><br />
+
+      <!-- validate email  -->
+      <input type="submit" value="submit here" />
     </form>
-</body>
+  </body>
 </html>
