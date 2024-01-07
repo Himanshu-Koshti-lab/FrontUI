@@ -1,0 +1,10 @@
+h1 {
+  font-size: 60px;
+  background: blue;
+  color: white;
+  /* absolute value of screen  using px*/
+
+  /* width and height of element */
+  width: 200px;
+  height: 200px;
+}
