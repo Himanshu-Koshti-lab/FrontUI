@@ -1,0 +1,45 @@
+#first {
+  color: white;
+  /* stick with color only */
+  background-color: black;
+}
+
+#second {
+  color: red;
+  /* shorthand for color and image */
+  background: yellow;
+}
+
+#rgb {
+  color: rgb(134, 134, 243);
+  background: black;
+}
+
+#rgba1 {
+  color: rgba(235, 175, 156, 1);
+  background: gray;
+}
+#rgba7 {
+  color: rgba(235, 175, 156, 0.7);
+  background: gray;
+}
+#rgba5 {
+  color: rgba(235, 175, 156, 0.5);
+  background: gray;
+}
+#rgba2 {
+  color: rgba(235, 175, 156, 0.25);
+  background: gray;
+}
+#rgba0 {
+  color: rgba(235, 175, 156, 0.336);
+  background: gray;
+}
+
+#hex {
+  color: #ee6c6c;
+}
+
+/* color names are arround > 140 */
+
+/* coolors.co */

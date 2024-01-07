@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(211, 209, 209);
+}
+
+div {
+  background: rgb(255, 255, 255);
+}
+
+h3 {
+  color: blueviolet;
+}
+
+.Specialcontainer {
+  background-color: black;
+  color: aqua;
+}
