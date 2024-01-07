@@ -1,3 +1,13 @@
+/* Styles file  */
+/*
+CSS Rules 
+h1 => selector
+  { => decleration block
+   color: #da5b07; property : value
+   font-size: 50px;
+  }
+*/
+
 h1 {
   color: #da5b07;
   font-size: 50px;
