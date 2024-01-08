@@ -1,9 +1,14 @@
-/* absolute value of screen  using px*/
+/* Relative value of screen  using %*/
 /* width and height of element */
-.px {
-  font-size: 60px;
-  background: blue;
-  color: white;
-  width: 200px;
-  height: 200px;
+.outer {
+  width: 300px;
+  height: 400px;
+  background-color: yellow;
+}
+
+/* inner depend on parent */
+.inner {
+  width: 50%;
+  height: 50%;
+  background-color: green;
 }
