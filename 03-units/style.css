@@ -1,14 +1,11 @@
-/* Relative value of screen  using %*/
-/* width and height of element */
-.outer {
-  width: 300px;
-  height: 400px;
-  background-color: yellow;
+.browser {
+  font-size: 5px;
 }
 
-/* inner depend on parent */
-.inner {
-  width: 50%;
-  height: 50%;
-  background-color: green;
+.absolute {
+  font-size: 32px;
+}
+
+.relative {
+  font-size: 3em;
 }
