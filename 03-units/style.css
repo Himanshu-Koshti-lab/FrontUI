@@ -1,15 +1,19 @@
-.browser {
-  font-size: 5px;
+/* for removing border and margin
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.absolute {
-  font-size: 32px;
+.hero {
+  background-color: rebeccapurple;
+  height: 100vh;
+  width: 100vw;
 }
 
-.relative {
-  font-size: 3rem;
+.about {
+  background: rgb(223, 88, 88);
+  height: 100vh;
+  width: 100vw;
 }
-
-/* html {
-  font-size: 10px;
-} */
