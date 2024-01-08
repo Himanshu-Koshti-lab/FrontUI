@@ -1,19 +1,15 @@
-/* for removing border and margin
- */
 * {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
-.hero {
-  background-color: rebeccapurple;
-  height: 100vh;
-  width: 100vw;
+.navbar {
+  background-color: blueviolet;
+  height: 60px;
+  color: aliceblue;
+  font-size: 3rem;
 }
 
-.about {
-  background: rgb(223, 88, 88);
-  height: 100vh;
-  width: 100vw;
+.background {
+  background: rgb(233, 68, 68);
+  height: calc(100vh - 60px);
 }
