@@ -7,5 +7,9 @@
 }
 
 .relative {
-  font-size: 3em;
+  font-size: 3rem;
 }
+
+/* html {
+  font-size: 10px;
+} */

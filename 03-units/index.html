@@ -7,10 +7,13 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1>Browser default 16 px</h1>
+    <h1>
+      Browser root never get overide by superclass default 16 px only by html
+      html {font-size = 10px} css root css only
+    </h1>
     <div class="browser">
       <h3 class="absolute">px absolute 32 px</h3>
-      <h3 class="relative">em relative 15 px 3em = (browser 5px * 3)</h3>
+      <h3 class="relative">rem relative 48 px 3rem = (browser 16px * 3)</h3>
     </div>
   </body>
 </html>
