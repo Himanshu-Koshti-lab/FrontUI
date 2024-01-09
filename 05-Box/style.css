@@ -37,6 +37,21 @@ body {
   /* margin: top right bottom left; */
 }
 
+.borderbox {
+  background: rgb(112, 216, 129);
+  /* padding: 20px 50px;
+  /* padding: 20px top bottom 50px = left right; */
+  margin: 0;
+  border-style: dashed;
+  border-color: rgb(247, 99, 54);
+
+  /* specific portion of border  */
+  border-bottom-style: dashed;
+  border-bottom-color: red;
+  border-width: 10px;
+  /* border-radius: 30px; */
+}
+
 .rightbox {
   background: rgb(0, 77, 128);
   padding: 20px 10px 30px 50px;
