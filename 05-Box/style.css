@@ -60,3 +60,15 @@ body {
   height: calc(100vh - 210px);
   margin: 0;
 }
+.radiusbox {
+  background: black;
+  border: 15px solid green;
+  border-radius: 30px;
+}
+
+.NegativeMarginbox {
+  background: black;
+
+  /* avoid it  */
+  margin-top: -50px;
+}

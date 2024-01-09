@@ -6,4 +6,4 @@
 
 MBPcontent
 
-Margin > Border > Padding > Content
+Margin > --Outline-- > Border > Padding > Content
