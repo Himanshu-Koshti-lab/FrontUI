@@ -4,3 +4,43 @@ border
 margin
 border radius
 negative margin */
+
+/* uncomment below line and your css dead */
+
+/* * {
+  margin: 0;
+} */
+
+body {
+  color: white;
+  margin: 0;
+}
+
+.firstbox {
+  background: red;
+  padding: 20px;
+  margin: 0;
+}
+
+.secondbox {
+  background: mediumpurple;
+  padding: 20px 50px;
+  /* padding: 20px top bottom 50px = left right; */
+  margin: 0;
+}
+
+.thirdbox {
+  background: purple;
+  padding: 20px 10px 30px 50px;
+  /* padding: top right bottom left; */
+  margin: 0;
+}
+
+.rightbox {
+  background: rgb(0, 77, 128);
+  padding: 20px 10px 30px 50px;
+  /* padding: top right bottom left; */
+  text-align: right;
+  height: calc(100vh - 210px);
+  margin: 0;
+}
