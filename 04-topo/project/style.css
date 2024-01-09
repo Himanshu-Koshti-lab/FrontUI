@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Salsa&display=swap");
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Salsa", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  line-height: 80px;
+}
+
+.title {
+  font-family: Bungee Spice;
+  background: yellow;
+}
+
+.subtitle {
+  font-family: "Salsa", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  word-spacing: 10px;
+  letter-spacing: 20px;
+  text-decoration: overline;
+}
+
+p {
+  line-height: normal;
+  font-weight: lighter;
+}
