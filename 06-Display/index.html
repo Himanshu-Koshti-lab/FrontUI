@@ -7,17 +7,32 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div>Hello CSS World Block element as your wish</div>
-    <span class="Inline">
-      I'm inline block doesn't care about width/height top-bottom margin
-    </span>
+    <div class="box-1 default">
+      With Border box it maintain total width and height remain same after
+      adding padding as well.
+    </div>
+    <div class="box-2 default">Normal box</div>
+    <div class="box-3 default">
+      Without Border box w/h +20 by adding padding of 10px
+    </div>
 
-    <ul class="navbar">
-      <li><a href="">Home</a></li>
-      <li><a href="">General</a></li>
-      <li><a href="">Contact</a></li>
-      <li><a href="">About</a></li>
-    </ul>
-    <!-- <a href="">None</a> -->
+    <div class="inlineblock">
+      <div class="box default">inline-block</div>
+      <div class="box default">inline-block</div>
+      <div class="box default">inline-block</div>
+    </div>
+
+    <div class="opacity">
+      <div class="op1 default">opacity take space even 0 opacity</div>
+      <div class="op5 default">opacity</div>
+      <div class="op0 default">opacity</div>
+    </div>
+    <div class="visibility">
+      <div class="hidden default">visibility = hidden</div>
+      <div class="visible default">
+        visibility = visible take space even 0 visbility only display none help
+        you save spave in UI it will remove element itself.
+      </div>
+    </div>
   </body>
 </html>

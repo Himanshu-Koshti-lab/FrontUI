@@ -1,38 +1,66 @@
 * {
   margin: 0;
   padding: 0;
+  /* box-sizing: border-box; */
+  border: 1px solid red;
+}
+
+.default {
+  width: 200px;
+  height: 200px;
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+}
+
+.box-1 {
+  background: red;
+  padding: 10px;
   box-sizing: border-box;
 }
-/* 
-div {
-  background: blue;
-  color: white;
-  width: 400px;
-  height: 300px;
-  margin-top: 20px;
-  margin-bottom: 200px;
-}
-.Inline {
-  background: blue;
-  color: white;
-  width: 400px;
-  height: 300px;
-  margin-top: 20px;
-  margin-bottom: 200px;
-} */
-
-/* decendent selector all a inside navbar */
-.navbar a {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-decoration: none;
-  background: brown;
-  color: aliceblue;
-  padding: 5px;
-  display: block;
-  /* margin: 10px 10px; */
+.box-2 {
+  background: rgb(52, 233, 36);
 }
 
-/* decendent selector all a inside ul */
-ul li {
-  list-style-type: none;
+.box-3 {
+  background: rgb(56, 37, 231);
+  padding: 10px;
+}
+
+.box {
+  display: inline-block;
+}
+.box {
+  background: rgb(52, 233, 36);
+}
+
+.opacity div {
+  display: inline-block;
+  box-sizing: border-box;
+  background: rgb(9, 15, 8);
+  overflow: hidden;
+}
+
+.visibility div {
+  display: inline-block;
+  background: rgb(44, 130, 241);
+  overflow: hidden;
+}
+
+.op1 {
+  opacity: 1;
+}
+.op5 {
+  opacity: 0.5;
+}
+.op0 {
+  opacity: 0;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
 }
