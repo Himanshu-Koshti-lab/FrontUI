@@ -17,8 +17,10 @@ body {
 }
 
 button {
-  padding: 10px;
+  padding: 20px;
   margin: 20px;
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: aquamarine;
   border: 5px solid red;
   outline: 5px solid green;
@@ -29,7 +31,6 @@ button {
   background: red;
   padding: 20px;
   margin: 0;
-  outline: 5px solid green;
 }
 
 .secondbox {
