@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* 
 div {
   background: blue;
   color: white;
@@ -13,4 +19,20 @@ div {
   height: 300px;
   margin-top: 20px;
   margin-bottom: 200px;
+} */
+
+/* decendent selector all a inside navbar */
+.navbar a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  background: brown;
+  color: aliceblue;
+  padding: 5px;
+  display: block;
+  /* margin: 10px 10px; */
+}
+
+/* decendent selector all a inside ul */
+ul li {
+  list-style-type: none;
 }
