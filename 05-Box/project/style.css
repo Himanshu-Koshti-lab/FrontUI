@@ -1,0 +1,74 @@
+* {
+  /* margin: 0; */
+  text-align: center;
+  line-height: 25px;
+  /* border: 1px solid red; */
+}
+
+body {
+  background: #f1f5f9;
+}
+
+.card {
+  /* to make gap between card of 3rem 16px = one rem  48px and alignt o center by using auto  */
+  margin: 48px auto;
+  max-width: 300px;
+  max-height: 250px;
+  /* to provide gap inside border */
+  padding: 1.5rem 2rem;
+  border: 1px solid;
+  border-radius: 5px;
+  background: white;
+}
+
+.backend {
+  border-color: #ff69a6;
+}
+
+.frontend {
+  border-color: #68bbff;
+}
+
+.icon {
+  padding: 10px;
+  /* to make it center */
+  margin: auto;
+  width: 10px;
+  height: 10px;
+  background: black;
+  border-radius: 20px;
+}
+
+.backend .icon {
+  background: #fc91f3;
+}
+
+.frontend .icon {
+  background: #68bbff;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.btn {
+  text-transform: capitalize;
+  border: transparent;
+  padding: 5px 20px;
+  background: #68bbff;
+  border-radius: 5px;
+}
+
+.backend .btn {
+  background: #ffcefb;
+  color: #ff0feb;
+}
+
+.frontend .btn {
+  background: #a6d7ff;
+  color: #39a6ff;
+}
+
+p {
+  color: grey;
+}
