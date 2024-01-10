@@ -15,3 +15,5 @@ border: 2px solid red
 to track content properties like padding margin n all
 
 10/01 Card creation done by using margin auto padding 10px in icon height and width10px line height 25px text transform to capital
+
+10/01 to horizontal center by margin auto and given width

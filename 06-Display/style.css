@@ -1,0 +1,14 @@
+.block {
+  background-color: green;
+  color: white;
+  text-align: center;
+  width: 300px;
+  /* to center horizontal  */
+  margin: 2rem auto;
+  /* display: inline; */
+}
+.inline {
+  background-color: green;
+  color: white;
+  /* display: block; */
+}
