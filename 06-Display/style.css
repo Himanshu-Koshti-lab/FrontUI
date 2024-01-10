@@ -1,14 +1,16 @@
-.block {
-  background-color: green;
+div {
+  background: blue;
   color: white;
-  text-align: center;
-  width: 300px;
-  /* to center horizontal  */
-  margin: 2rem auto;
-  /* display: inline; */
+  width: 400px;
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 200px;
 }
-.inline {
-  background-color: green;
+h {
+  background: blue;
   color: white;
-  /* display: block; */
+  width: 400px;
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 200px;
 }
