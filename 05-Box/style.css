@@ -16,10 +16,20 @@ body {
   margin: 0;
 }
 
+button {
+  padding: 10px;
+  margin: 20px;
+  background-color: aquamarine;
+  border: 5px solid red;
+  outline: 5px solid green;
+  outline-offset: -10px;
+}
+
 .firstbox {
   background: red;
   padding: 20px;
   margin: 0;
+  outline: 5px solid green;
 }
 
 .secondbox {
