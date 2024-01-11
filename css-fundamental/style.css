@@ -1,12 +1,7 @@
-.icon {
-  color: red;
-  font-size: 40px;
-}
-
-#title {
-  color: blue;
-}
-
-.container p {
+.container a {
+  display: block;
   color: gray;
+  text-decoration: none;
+  background-color: azure;
+  line-height: 20px;
 }
