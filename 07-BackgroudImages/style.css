@@ -1,0 +1,59 @@
+/* background shorthand
+    LG linear gradient
+    url for image
+    P position swap with size left right top bottom
+    S Size swap with position content cover
+    R repeat no- repeate space
+    A fixed
+
+    Sample background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(165, 42, 42, 0.384)),
+    url("./images/dear.jpg") center/cover no-repeat fixed;
+     */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  /* height: 300px; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  color: aliceblue;
+  text-transform: uppercase;
+}
+
+.racoon {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(165, 42, 42, 0.384)),
+    url("./images/racoon.jpg");
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+.sheep {
+  background: url("./images/sheep.jpg");
+  background-repeat: no-repeat;
+  color: ;
+  /* background-repeat: space; */
+  background-size: contain;
+  background-position: left;
+  background-position: right;
+  background-position: top;
+  background-position: center;
+  /* background-position: unset; */
+}
+.dear {
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(165, 42, 42, 0.384)),
+    url("./images/dear.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover; */
+  /* short hand linear gradiat image PSRA */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(165, 42, 42, 0.384)),
+    url("./images/dear.jpg") center/cover no-repeat fixed;
+  height: 100vh;
+}
