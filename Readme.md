@@ -32,3 +32,5 @@ A fixed
 
     Sample background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(165, 42, 42, 0.384)),
     url("./images/dear.jpg") center/cover no-repeat fixed;
+
+11/01 Background project done

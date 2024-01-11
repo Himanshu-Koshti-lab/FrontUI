@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  /* border: 1px solid red; */
+}
+
+.header {
+  background: rgb(37, 36, 36);
+  line-height: 3rem;
+  padding-left: 10vw;
+  width: 100vw;
+  position: fixed;
+}
+.header:hover {
+  background: linear-gradient(
+    to right,
+    rgba(30, 123, 245, 0.493),
+    rgb(235, 242, 253)
+  );
+}
+.logo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+}
+.content {
+  padding-left: 10vw;
+  background: linear-gradient(
+      to left,
+      rgba(202, 222, 248, 0),
+      rgba(0, 38, 255, 0.37)
+    ),
+    url("./code.jpg") center/cover no-repeat fixed;
+  height: 100vh;
+}
+.content-title {
+  line-height: 4rem;
+}
+.content span {
+  margin-top: 30px;
+  display: block;
+  width: 30vw;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* color: whi; */
+  font-weight: 800;
+}
+input {
+  background: rgb(108, 108, 255);
+  padding: 5px;
+  outline: 2px solid rgba(17, 216, 156, 0.374);
+  outline-offset: 2px;
+  border: none;
+}
+.bye {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 900;
+  height: 100vh;
+  background: url("./bye.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
