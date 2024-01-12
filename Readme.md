@@ -34,3 +34,8 @@ A fixed
     url("./images/dear.jpg") center/cover no-repeat fixed;
 
 11/01 Background project done
+
+12/01 Relative positionmeans content will whow in diff location from the actual one by using top rightbottom left.
+
+In Absolute it map to parent relateve content
+and you can mark parent content relative by using position relative

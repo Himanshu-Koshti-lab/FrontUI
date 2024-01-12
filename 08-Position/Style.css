@@ -49,6 +49,8 @@ span {
   border: 1px solid red;
   background: yellow;
   margin-top: 400px;
+  /* comment below line to show content  */
+  /* display: none; */
 }
 
 .relative .one {
@@ -69,24 +71,36 @@ span {
   color: white;
 }
 
-/* absolute Position */
+/* absolute Position to will stick to nearest relative/parent*/
 
 .absolute {
   border: 1px solid red;
   background: yellow;
   margin-top: 400px;
+  /* comment below line it will make parent to master div */
+  position: relative;
 }
 
 .absolute .one {
   background: green;
   padding: 20px;
+  /* position: absolute;
+  top: 0;
+  left: 0; */
 }
 .absolute .two {
   background: navajowhite;
-  position: relative;
   padding: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .absolute span {
   background: rebeccapurple;
   color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
+
+/* .absolute end  */
