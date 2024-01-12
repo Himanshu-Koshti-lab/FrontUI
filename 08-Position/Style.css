@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  /* border: 1px solid red; */
+  padding: 20px;
+  /* comment below line to show content  */
+  /* display: none; */
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.withclear {
+  clear: both;
+}
+
+/* Position Static By default */
+
+.main {
+  border: 1px solid red;
+  background: yellow;
+  margin-top: 400px;
+  /* display: none; */
+}
+
+.one {
+  background: green;
+}
+.two {
+  background: navajowhite;
+}
+span {
+  background: rebeccapurple;
+  color: white;
+}
+
+/* relative Position */
+
+.relative {
+  border: 1px solid red;
+  background: yellow;
+  margin-top: 400px;
+}
+
+.relative .one {
+  background: green;
+  position: relative;
+  top: 200px;
+  right: -50px;
+  padding: 20px;
+}
+.relative .two {
+  background: navajowhite;
+  position: relative;
+  top: -55px;
+  padding: 20px;
+}
+span {
+  background: rebeccapurple;
+  color: white;
+}
+
+/* absolute Position */
+
+.absolute {
+  border: 1px solid red;
+  background: yellow;
+  margin-top: 400px;
+}
+
+.absolute .one {
+  background: green;
+  padding: 20px;
+}
+.absolute .two {
+  background: navajowhite;
+  position: relative;
+  padding: 20px;
+}
+.absolute span {
+  background: rebeccapurple;
+  color: white;
+}
