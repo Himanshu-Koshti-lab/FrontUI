@@ -39,3 +39,6 @@ A fixed
 
 In Absolute it map to parent relateve content
 and you can mark parent content relative by using position relative
+
+13/01 Inset shorthad for
+top right bottom left while using relative n absolute

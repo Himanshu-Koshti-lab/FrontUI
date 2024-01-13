@@ -104,3 +104,41 @@ span {
 }
 
 /* .absolute end  */
+
+/* inset start */
+
+.boxprop {
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  background: rgb(90, 235, 90);
+}
+
+.box2 {
+  position: relative;
+}
+
+.box2 h1:hover {
+  position: absolute;
+  /* background-color: rgba(116, 116, 238, 0.39); */
+  top: 10%;
+  bottom: 10%;
+  right: 10%;
+  left: 10%;
+  text-align: center;
+  color: aliceblue;
+}
+.box2 h1 {
+  position: absolute;
+  background-color: rgba(116, 116, 238, 0);
+  outline: 1px solid rgba(116, 116, 238, 0.39);
+  outline-offset: 2px;
+  /* top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0; */
+  inset: 0;
+  text-align: center;
+  color: aliceblue;
+  transition: all 0.2s linear;
+}
