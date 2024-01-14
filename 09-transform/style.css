@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+div {
+  display: inline-block;
+  width: 33%;
+  height: 400px;
+  color: aliceblue;
+  text-transform: uppercase;
+  text-align: center;
+}
+.red {
+  background: red;
+}
+.green {
+  background: green;
+}
+.blue {
+  background: blue;
+}
+
+.tranx:hover {
+  transform: translateX(100px);
+}
+
+.trany:hover {
+  transform: translateY(100px);
+}
+.tranxy:hover {
+  transform: translate(100px, 100px);
+}
+
+.rotatex:hover {
+  transform: rotateX(20deg);
+}
+
+.rotatey:hover {
+  transform: rotateY(180deg);
+}
+.rotatez:hover {
+  transform: rotateZ(20deg);
+}
+
+.scalex:hover {
+  transform: scaleX(2);
+}
+
+.scaley:hover {
+  transform: scaleY(2);
+}
+.scalez:hover {
+  transform: scaleZ(2);
+}
+
+.skewx:hover {
+  transform: skewX(10deg);
+}
+.skewy:hover {
+  transform: skewY(10deg);
+}
+.skew:hover {
+  transform: skew(10deg, 10deg);
+}
