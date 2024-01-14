@@ -45,6 +45,10 @@
   position: relative;
 }
 
+.move {
+  animation: fromTop 1s ease-in 0.1s 1 normal forwards;
+}
+
 .content-center {
   position: absolute;
   top: 50%;
@@ -57,6 +61,18 @@
   text-transform: capitalize;
   font-weight: 800;
   letter-spacing: 1px;
+  line-height: 100px;
+}
+
+@keyframes fromTop {
+  0% {
+    transform: translateY(-10vh);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .para {
@@ -75,6 +91,18 @@ button {
   outline: 1px solid whitesmoke;
   outline-offset: 5px;
   border: none;
+  animation: fromBottom 1s ease-in 0.1s 1 normal forwards;
+}
+
+@keyframes fromBottom {
+  0% {
+    transform: translateY(10vh);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 /* apply until width less than 600 */

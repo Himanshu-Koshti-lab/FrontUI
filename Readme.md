@@ -47,3 +47,19 @@ top right bottom left while using relative n absolute
 transition-duration: 3s; to controla perticular property to transform and what time it take to transform
 
 14/01 animation: name duration timing-function delay iteration-count direction fill-mode;
+
+14/01 partition transition 0-100 to 0...25..50..100% add multiple transition between keyframe
+animation: fromBottom 1s ease-in 0.1s 1 normal forwards;
+
+```css
+@keyframes fromBottom {
+  0% {
+    transform: translateY(10vh);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+```
