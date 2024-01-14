@@ -50,9 +50,12 @@ div {
 }
 
 .scaley:hover {
-  transform: scaleY(3);
-  transition-property: transform;
+  transform: scaleY(2);
+  background: navajowhite;
+  border-radius: 400px;
+  transition-property: transform, background, border-radius;
   transition-duration: 3s;
+  transition-delay: 2s;
 }
 .scalez:hover {
   transform: scaleZ(2);
