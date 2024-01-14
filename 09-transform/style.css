@@ -101,3 +101,49 @@ div {
   height: 5vh;
   width: 10vw;
 }
+
+.tran {
+  width: 200;
+  height: 50px;
+  transition: all 2s linear;
+}
+
+.tran:hover {
+  background: green;
+  color: aliceblue;
+}
+
+.animation {
+  width: 200;
+  height: 50px;
+  /* animation-name: move;
+  animation-duration: 20s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+  animation-direction: reverse; */
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: move 5s ease-in 2s infinite reverse forwards;
+}
+
+@keyframes move {
+  0% {
+    background: green;
+    transform: translateX(600px);
+  }
+  25% {
+    background: rgb(128, 126, 0);
+    transform: translateX(-400px);
+  }
+  50% {
+    background: rgb(128, 83, 0);
+    transform: translateX(200px);
+  }
+  75% {
+    background: rgb(128, 47, 0);
+    transform: translateX(-100px);
+  }
+  100% {
+    background: rgb(128, 0, 0);
+    transform: translateX(50px);
+  }
+}
