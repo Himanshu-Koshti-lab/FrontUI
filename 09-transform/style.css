@@ -6,12 +6,13 @@
 }
 
 div {
-  display: inline-block;
+  /* display: inline-block; */
   width: 33%;
   height: 400px;
   color: aliceblue;
   text-transform: uppercase;
   text-align: center;
+  transition: all 0.5s linear;
 }
 .red {
   background: red;
@@ -54,8 +55,7 @@ div {
   background: navajowhite;
   border-radius: 400px;
   /* transition: property duration delay; */
-  transition: background 2s 1s, border-radius 2s 1s;
-  /* transition: all 2s linear; */
+  /* transition: all 2s linear delay; */
 }
 .scalez:hover {
   transform: scaleZ(2);
@@ -69,4 +69,35 @@ div {
 }
 .skew:hover {
   transform: skew(10deg, 10deg);
+}
+
+.ease:hover {
+  width: 100vw;
+  transition: width 1s ease;
+}
+.easein:hover {
+  width: 100vw;
+  transition: width 1s ease-in;
+}
+.easeinout:hover {
+  width: 100vw;
+  transition: width 1s ease-in-out;
+}
+.easeout:hover {
+  width: 100vw;
+  transition: width 1s ease-out;
+}
+.step-start:hover {
+  width: 100vw;
+  transition: width 1s step-start;
+}
+.step-end:hover {
+  width: 100vw;
+  transition: width 1s step-end;
+}
+
+.redo {
+  background-color: green;
+  height: 5vh;
+  width: 10vw;
 }
