@@ -50,7 +50,9 @@ div {
 }
 
 .scaley:hover {
-  transform: scaleY(2);
+  transform: scaleY(3);
+  transition-property: transform;
+  transition-duration: 3s;
 }
 .scalez:hover {
   transform: scaleZ(2);
