@@ -45,3 +45,5 @@ top right bottom left while using relative n absolute
 
 14/01 transition-property: transform;
 transition-duration: 3s; to controla perticular property to transform and what time it take to transform
+
+14/01 animation: name duration timing-function delay iteration-count direction fill-mode;

@@ -122,28 +122,28 @@ div {
   animation-fill-mode: both;
   animation-direction: reverse; */
   /* animation: name duration timing-function delay iteration-count direction fill-mode; */
-  animation: move 5s ease-in 2s infinite reverse forwards;
+  animation: move 5s ease-in 2s infinite reverse both;
 }
 
 @keyframes move {
   0% {
     background: green;
-    transform: translateX(600px);
+    transform: translateX(0px);
   }
   25% {
     background: rgb(128, 126, 0);
-    transform: translateX(-400px);
+    transform: translateX(10px);
   }
   50% {
     background: rgb(128, 83, 0);
-    transform: translateX(200px);
+    transform: translateX(-10px);
   }
   75% {
     background: rgb(128, 47, 0);
-    transform: translateX(-100px);
+    transform: translateX(+10px);
   }
   100% {
     background: rgb(128, 0, 0);
-    transform: translateX(50px);
+    transform: translateX(0px);
   }
 }
