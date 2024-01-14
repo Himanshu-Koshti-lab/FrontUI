@@ -1,5 +1,16 @@
+:root {
+  --primaryColor: rgb(255, 0, 0);
+  --primaryColor-2: rgb(255, 27, 27);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: rgb(211, 209, 209);
+  background-color: var(--primaryColor-2);
 }
 
 div {
@@ -10,7 +21,11 @@ h3 {
   color: blueviolet;
 }
 
-.Specialcontainer {
+.container .title2 {
+  color: aquamarine;
+}
+
+:is(.IsSpecialcontainer, .container) :not(.title2) {
   background-color: black;
-  color: aqua;
+  color: var(--primaryColor);
 }
