@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: rgba(242, 104, 242, 0.67);
+  box-shadow: 2px;
+  box-shadow: 10px 10px 10px -1px rgba(242, 104, 242, 0.67);
+}
+
+.text {
+  text-shadow: 5px 0px 5px green;
+}
