@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,600;1,300;1,500&family=Grand+Hotel&display=swap");
+
+:root {
+  --clr-primary: #82ff9e;
+  --clr-primary-light: #a9fbc3;
+  --clr-secondary: #6e0d25;
+  --clr-black: black;
+  --clr-white: white;
+  --clr-gray-1: gray;
+  --clr-gray-3: rgb(158, 158, 158);
+  --clr-gray-6: rgb(199, 199, 199);
+  --clr-gray-10: rgb(230, 230, 230);
+  --ff-content: "Chakra Petch";
+  --ff-head: "Grand Hotel";
+  --transition: all 0.5 linear;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 255, 0.384),
+      rgba(23, 0, 128, 0.336)
+    ),
+    url(./images/back.jpg) center/cover no-repeat fixed;
+  font-size: 2em;
+}
+
+h1 {
+  font-family: var(--ff-content);
+}
+h2 {
+  font-family: var(--ff-head);
+}
+
+.navigation {
+  color: white;
+  font-size: 50px;
+  /* transition: var(--transition);
+  animation: navbtn 1s ease-in-out infinite normal forwards; */
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  background-color: var(--clr-primary);
+  color: #00801c;
+  padding: 10px 20px;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.title {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-title {
+  text-align: center;
+  color: var(--clr-primary);
+  font-size: 8rem;
+  text-shadow: 2px 2px 5px var(--clr-gray-1);
+}
+
+.title-desc {
+  text-align: right;
+  color: var(--clr-white);
+  font-size: 3rem;
+  text-transform: lowercase;
+}
+
+.title-btn {
+  margin-top: 80px;
+  outline: 0.5px solid var(--clr-primary);
+  /* outline-offset: 3px; */
+  transition: var(--transition);
+  animation: explorebtn 1s linear infinite normal forwards;
+}
+
+@keyframes explorebtn {
+  0%,
+  100% {
+    outline-offset: 5px;
+  }
+  25%,
+  75% {
+    outline-offset: 4px;
+  }
+  50% {
+    outline-offset: 3px;
+  }
+}
+
+.title-btn:hover {
+  font-weight: 900;
+  background-color: aquamarine;
+  color: #00801c;
+}
+
+@keyframes navbtn {
+  0%,
+  100% {
+    font-size: 50px;
+  }
+  25%,
+  75% {
+    font-size: 40px;
+  }
+  50% {
+    font-size: 30px;
+  }
+}
+
+.seprator {
+  width: 100vw;
+  height: 10px;
+  background: linear-gradient(to left, blue, green, blue);
+}
+
+.characters {
+  width: 100vw;
+  height: 100vh;
+}
+img {
+  width: 100%;
+}
