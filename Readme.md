@@ -135,3 +135,13 @@ Box Shadow Text Shadow
 
 /* text-shadow: x-offset y-offset blur-radius color | none | initial | inherit; */
 ```
+
+#Center Div
+
+````css
+.container {
+  width: 50%; -- size small
+  max-width: 1140px; -- max width
+  margin: 0 auto; top/bottom left/right
+}```
+````
