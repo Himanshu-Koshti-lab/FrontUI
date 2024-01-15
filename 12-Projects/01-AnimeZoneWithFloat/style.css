@@ -12,7 +12,7 @@
   --clr-gray-10: rgb(230, 230, 230);
   --ff-content: "Chakra Petch";
   --ff-head: "Grand Hotel";
-  --transition: all 0.5 linear;
+  --transition: all 0.5s linear;
 }
 
 * {
@@ -140,14 +140,14 @@ Content 2 Props
 */
 
 .content-2 {
-  margin-top: 20px;
   font-size: 2em;
 }
 .card {
-  /* background: aquamarine; */
+  background: rgb(70, 151, 243);
   float: left;
   width: 25%;
   padding: 20vh 10px;
+  color: white;
 }
 
 .drawer {
@@ -158,13 +158,13 @@ Content 2 Props
 .name {
   font-family: var(--ff-content);
   text-transform: capitalize;
-  font-weight: 200;
+  font-weight: 100;
   color: var(--clr-secondary);
   text-align: center;
 }
 .text {
   display: block;
-  font-family: var(--ff-head);
+  font-family: var(--ff-content);
   text-align: center;
 }
 /* 
@@ -185,9 +185,14 @@ Content 3 Props
   height: 50%;
   border: 10px solid white;
   box-shadow: 2px 2px 5px rgb(29, 184, 255);
-  padding: 10px;
+  transition: var(--transition);
 }
-.section-two {
+
+.solo-image:hover {
+  box-shadow: 10px 10px 10px rgb(0, 163, 238);
+  transform: scale(1.1);
+}
+.content-3 .section-two {
   width: 50%;
 }
 
@@ -197,6 +202,7 @@ Content 3 Props
   text-transform: uppercase;
   text-shadow: 2px 2px 5px #ff501a;
   font-size: 100px;
+  transition: var(--transition);
 }
 
 .content-3-name:hover {
@@ -209,6 +215,7 @@ p {
   height: 100%;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  transition: var(--transition);
 }
 
 p:hover {
