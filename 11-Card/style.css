@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primarycolor-1: #412234;
+  --primarycolor-2: #d8ffda;
+  --primarycolor-3: #2e4052;
+  --primarycolor-4: #ffc857;
+  --primarycolor-5: #ffffff;
+}
+
+body {
+  background: var(--primarycolor-2);
+}
+
+.header {
+  text-align: center;
+  margin-top: 10vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: var(--primarycolor-5);
+  max-width: 30%;
+  max-height: 50%;
+  padding: 10px;
+  box-shadow: 5px 5px 15px var(--primarycolor-3);
+  margin: 20px;
+  outline: 2px solid var(--primarycolor-3);
+  outline-offset: -2px -2px 0.5;
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    background: var(--primarycolor-5);
+    max-width: 100%;
+    max-height: 100%;
+    padding: 10px;
+    box-shadow: 2px -2px 5px var(--primarycolor-3);
+    margin: 20px;
+  }
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.category {
+  text-transform: uppercase;
+  font-size: small;
+  font-weight: lighter;
+  color: var(--primarycolor-1);
+}
+
+.card-title {
+  text-transform: capitalize;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 100;
+  line-height: 30px;
+  color: var(--primarycolor-4);
+}
+
+a {
+  display: inline-block;
+  margin: 10px 0px 20px 5px;
+  padding: 5px;
+  background: var(--primarycolor-4);
+  text-decoration: none;
+  animation: outline 0.9s linear 0.1s infinite normal forwards;
+}
+
+i {
+  color: var(--primarycolor-1);
+}
+
+@keyframes outline {
+  0% {
+    outline-offset: 4px;
+    outline: 2px solid var(--primarycolor-4);
+  }
+  25% {
+    outline-offset: 3px;
+    outline: 2px solid var(--primarycolor-3);
+  }
+  50% {
+    outline-offset: 2px;
+    outline: 2px solid var(--primarycolor-2);
+  }
+  75% {
+    outline-offset: 3px;
+    outline: 2px solid var(--primarycolor-3);
+  }
+
+  100% {
+    outline-offset: 4px;
+    outline: 2px solid var(--primarycolor-4);
+  }
+}
+
+p {
+  margin-top: 10px;
+  letter-spacing: 1px;
+  font-family: cursive;
+}

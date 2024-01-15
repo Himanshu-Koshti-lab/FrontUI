@@ -104,3 +104,34 @@ animation: fromBottom 1s ease-in 0.1s 1 normal forwards;
   }
 }
 ```
+
+### 15/01
+
+CSS variable.
+
+```css
+--varableName: #ffffff;
+```
+
+font asesome add by link or folder.
+
+Box Shadow Text Shadow
+
+```css
+.box {
+  width: 200px;
+  height: 200px;
+  background: rgba(242, 104, 242, 0.67);
+  box-shadow: 2px;
+  box-shadow: 10px 10px 10px -1px rgba(242, 104, 242, 0.67);
+}
+
+/* box-shadow: none | h-offset v-offset blur spread color | inset | initial |
+  inherit; */
+
+.text {
+  text-shadow: 5px 0px 5px green;
+}
+
+/* text-shadow: x-offset y-offset blur-radius color | none | initial | inherit; */
+```
