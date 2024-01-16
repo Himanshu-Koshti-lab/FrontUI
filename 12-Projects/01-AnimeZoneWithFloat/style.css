@@ -12,7 +12,7 @@
   --clr-gray-10: rgb(230, 230, 230);
   --ff-content: "Chakra Petch";
   --ff-head: "Grand Hotel";
-  --transition: all 0.5s linear;
+  --transition: all 0.2s linear;
 }
 
 * {
@@ -149,6 +149,10 @@ Content 2 Props
   padding: 20px;
   padding-bottom: 50vh;
   color: rgb(0, 0, 0);
+  transition: var(--transition);
+}
+.card:hover {
+  transform: scale(1.1);
 }
 
 .drawer {
@@ -232,4 +236,30 @@ p {
 
 p:hover {
   color: #ff501a;
+}
+
+.content-4 {
+  width: 100vw;
+  /* background: linear-gradient(
+      to top,
+      rgba(0, 0, 255, 0.384),
+      rgba(23, 0, 128, 0.336)
+    ),
+    url(./images/back.jpg) center/cover no-repeat fixed; */
+}
+
+.zoom-container {
+  border: 5px solid var(--clr-primary-light);
+  max-height: 500px;
+  overflow: hidden;
+  background-color: rgb(0, 0, 245);
+}
+
+.zoom-container:hover .zomeimage {
+  transform: scale(1.2);
+  opacity: 0.5;
+}
+
+.zomeimage {
+  transition: var(--transition);
 }

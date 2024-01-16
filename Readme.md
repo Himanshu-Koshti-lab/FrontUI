@@ -154,3 +154,13 @@ hidden border for rounding image
 border: 2px solid rgba(0, 0, 0, 0);
 border-radius: 40px;
 ```
+
+use external-container for controlling size actual size of zoomed image
+when hocer to external div internal image got scale
+
+```css
+.external-container:hover .inner-image {
+  box-shadow: 10px 10px 10px rgb(0, 163, 238);
+  transform: scale(1.1);
+}
+```
