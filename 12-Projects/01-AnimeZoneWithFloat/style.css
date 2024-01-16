@@ -89,7 +89,6 @@ h2 {
 .title-btn {
   margin-top: 80px;
   outline: 0.5px solid var(--clr-primary);
-  /* outline-offset: 3px; */
   transition: var(--transition);
   animation: explorebtn 1s linear infinite normal forwards;
 }
@@ -143,15 +142,23 @@ Content 2 Props
   font-size: 2em;
 }
 .card {
-  background: rgb(70, 151, 243);
+  background: rgb(185, 218, 255);
   float: left;
   width: 25%;
-  padding: 20vh 10px;
-  color: white;
+  max-height: 50vh;
+  padding: 20px;
+  padding-bottom: 50vh;
+  color: rgb(0, 0, 0);
 }
 
 .drawer {
-  width: 100%;
+  /* for invisible border to make rounded image  */
+  border: 2px solid rgba(0, 0, 0, 0);
+  border-radius: 40px;
+  display: block;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
   height: 30vh;
 }
 
@@ -164,6 +171,9 @@ Content 2 Props
 }
 .text {
   display: block;
+  width: 80%;
+  margin: 0 auto;
+  font-size: medium;
   font-family: var(--ff-content);
   text-align: center;
 }
@@ -178,15 +188,14 @@ Content 3 Props
   flex-direction: row;
   background-color: rgba(203, 203, 255, 0.39);
   padding: 50px;
-  border: 2px solid red;
 }
 
 .solo-image {
   width: 40%;
   border: 10px solid white;
+  border-radius: 30px;
   box-shadow: 2px 2px 5px rgb(29, 184, 255);
   transition: var(--transition);
-  overflow: hidden;
   object-fit: cover;
 }
 

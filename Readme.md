@@ -145,3 +145,12 @@ Box Shadow Text Shadow
   margin: 0 auto; top/bottom left/right
 }```
 ````
+
+### 16/01
+
+hidden border for rounding image
+
+```css
+border: 2px solid rgba(0, 0, 0, 0);
+border-radius: 40px;
+```
