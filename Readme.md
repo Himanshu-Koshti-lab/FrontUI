@@ -178,3 +178,10 @@ Shotcut for
     <div class="box box-4">4</div>
     <div class="box box-5">5</div>
 ```
+
+```css
+display: flex; -- Block level border will cover whole width
+
+display:inline-flex -- inline level cover pertivular space which used by child components
+
+```
