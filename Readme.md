@@ -4,13 +4,13 @@
 
 ## BOX
 
-MBPcontent
+# MBPcontent
 
 Margin > --Outline-- > Border > Padding > Content
 
 outline revolve arround border if in +px or inside in -px.
 
-09/01 border hack
+### 09/01 border hack
 
 ```css
 .box {
@@ -22,11 +22,16 @@ to track content properties like padding margin n all.
 
 ### 10/01
 
-Card creation done by using margin auto padding 10px in icon height and width10px line height 25px text transform to capital
+Card creation done by using
+margin auto
+padding 10px in icon height,
+width 10px line
+height 25px
+text transform to capital
 
-To horizontal center by margin auto and given width
+# To horizontal center by margin auto and given width
 
-Inline element can't compromise width/height top-bottom margin
+# Inline element can't compromise width/height top-bottom margin
 
 ### 11/01
 
@@ -42,7 +47,7 @@ S Size swap with position content cover
 R repeat no- repeate space
 A Attachment fixed
 
-    Backgroung LG URL PSRA  -- shotrcut
+# Backgroung LG URL PSRA -- shotrcut
 
     Sample background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(165, 42, 42, 0.384)),
     url("./images/dear.jpg") center/cover no-repeat fixed;
@@ -51,23 +56,30 @@ A Attachment fixed
 
 ### 12/01
 
-Relative positionmeans content will whow in diff location from the actual one by using top rightbottom left.
+# Relative position
 
-In Absolute it map to parent relateve content
+means content will show in diff location from the actual one by using top right bottom left.
+
+# In Absolute
+
+it map to parent relateve content
 and you can mark parent content relative by using position relative
 
 ### 13/01
 
-Inset shorthad for
+Inset shorthand for
 top right bottom left while using relative n absolute
 
 ### 14/01
 
-transform
+# transform
+
 translate
 rotate
 scale
 skew
+
+# transform
 
 to control perticular property to transform and what time it take to transform.
 
@@ -76,10 +88,11 @@ transition-property: transform;
 transition-duration: 3s;
 ```
 
-animation: name duration timing-function delay iteration-count direction fill-mode;
+# animation: name duration timing-function delay iteration-count direction fill-mode;
 
     Animation shotrcut
-    Animation NaDu TiFU DeIt DiFi
+
+# Animation NaDu TiFU DeIt DiFi
 
     Name custom animation name tag with @Keyframe
     Duration in Sec
@@ -107,15 +120,17 @@ animation: fromBottom 1s ease-in 0.1s 1 normal forwards;
 
 ### 15/01
 
-CSS variable.
+# CSS variable.
 
 ```css
 --varableName: #ffffff;
 ```
 
-font asesome add by link or folder.
+Font awesome add by link or folder.
 
-Box Shadow Text Shadow
+# Box Shadow
+
+# Text Shadow
 
 ```css
 .box {
@@ -165,9 +180,9 @@ when hocer to external div internal image got scale
 }
 ```
 
-##17/01
+### 17/01
 
-Shotcut for
+Shotcut for creating Div
 
 ```css
     (.box.box-${$})*5
@@ -184,4 +199,52 @@ display: flex; -- Block level border will cover whole width
 
 display:inline-flex -- inline level cover pertivular space which used by child components
 
+```
+
+# Flex-direction
+
+for seting flow of chiled component
+row is default
+row reverse
+column
+column-reverse
+
+# Flex-Wrap
+
+to cover screen with if number of elsemt low like text warp in excel.
+
+flex-wrap = wrap/nowrap
+
+# Justify Content
+
+used to Horizontal align child.
+space-between space-around
+
+```css
+.justify-content-flex-end-container {
+  border: 2px solid rgb(0, 255, 21);
+  display: flex;
+  justify-content: flex-end;
+}
+.justify-content-center-container {
+  border: 2px solid rgb(0, 255, 21);
+  display: flex;
+  justify-content: center;
+}
+```
+
+## center
+
+most used
+
+# align item to set child verticaly
+
+```css
+.align-item-container {
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  align-items: center;
+}
 ```
