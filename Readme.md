@@ -164,3 +164,17 @@ when hocer to external div internal image got scale
   transform: scale(1.1);
 }
 ```
+
+##17/01
+
+Shotcut for
+
+```css
+    (.box.box-${$})*5
+
+    <div class="box box-1">1</div>
+    <div class="box box-2">2</div>
+    <div class="box box-3">3</div>
+    <div class="box box-4">4</div>
+    <div class="box box-5">5</div>
+```
