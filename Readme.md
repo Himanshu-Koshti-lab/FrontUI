@@ -248,3 +248,23 @@ most used
   align-items: center;
 }
 ```
+
+# Align Content to maintain distance between div
+
+```css
+.align-content-container {
+  height: 100vh;
+  display: flex;
+  background-color: green;
+  flex-direction: row;
+  align-items: stretch;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  align-content: baseline;
+  align-content: end;
+  align-content: space-between;
+  align-content: space-around;
+  align-content: space-evenly;
+}
+```
