@@ -86,6 +86,10 @@ body {
   align-content: space-evenly;
 }
 
+.align-content-container:hover .box-4 {
+  order: -1;
+}
+
 .box {
   padding: 30px;
   text-align: center;
