@@ -269,6 +269,8 @@ most used
 }
 ```
 
+### Child level prop for each div\*
+
 # order
 
 set order of div by using order keyword
@@ -282,3 +284,34 @@ by default order 0
   order: -1;
 }
 ```
+
+# flex-grow
+
+it allow you to fill remain space in perticular line or block. by default 0
+
+````css
+.align-content-container:hover .box-4 {
+  order: -1;
+  flex-grow: 1;
+}
+.align-content-container:hover .box-3 {
+  order: -1;
+  flex-grow: 3;
+}```
+````
+
+# Flex shrink
+
+by Default 1
+div will shrink if sapve is not there
+
+if set 0
+then it will make space for perticular width and move other div to seprate line if space is not there.
+
+```
+flex-shrink: 0; be like pushpa jhukega nahi
+```
+
+## Flex short cut
+
+Flex: grow shrink width

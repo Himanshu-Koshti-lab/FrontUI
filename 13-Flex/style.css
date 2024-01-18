@@ -71,7 +71,7 @@ body {
 }
 
 .align-content-container {
-  height: 100vh;
+  height: 40vh;
   display: flex;
   background-color: green;
   flex-direction: row;
@@ -88,6 +88,32 @@ body {
 
 .align-content-container:hover .box-4 {
   order: -1;
+  flex-grow: 1;
+}
+.align-content-container:hover .box-3 {
+  order: -1;
+  flex-grow: 3;
+}
+.contain {
+  display: flex;
+  border: 2px solid red;
+}
+.samewidthbox {
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: aliceblue;
+  /* uncomment to set same width  */
+  /* flex-grow: 1; */
+}
+.box1 {
+  border: 2px solid red;
+  flex-grow: 5;
+}
+
+.box2 {
+  border: 2px solid red;
+  flex-grow: 1;
 }
 
 .box {
