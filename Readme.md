@@ -315,3 +315,19 @@ flex-shrink: 0; be like pushpa jhukega nahi
 ## Flex short cut
 
 Flex: grow shrink width
+
+width set for perticular element
+
+to maintain div in single row trick
+
+````css
+.containa {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid red;
+}
+.boxa {
+  flex: 0 1 50%;
+
+}```
+````

@@ -99,7 +99,7 @@ body {
   border: 2px solid red;
 }
 .samewidthbox {
-  padding: 30px;
+  /* padding: 30px; */
   text-align: center;
   font-size: 35px;
   color: aliceblue;
@@ -114,6 +114,14 @@ body {
 .box2 {
   border: 2px solid red;
   flex-grow: 1;
+}
+.containa {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid red;
+}
+.boxa {
+  flex: 0 0 25%;
 }
 
 .box {
