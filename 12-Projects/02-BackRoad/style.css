@@ -146,6 +146,34 @@ p {
   color: var(--clr-primary-1);
   background: var(--clr-primary-8);
 }
+/* Default section setting  */
+.section {
+  padding: 5rem 0;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.section-title h2 {
+  text-transform: uppercase;
+}
+.section-title span {
+  color: var(--clr-primary-5);
+}
+
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+@media screen and (min-width: 990px) {
+  .section-center {
+    width: 95vw;
+  }
+}
+
+/* Default section setting End */
 
 /*
 =============== 
@@ -214,9 +242,48 @@ About
 ===============
 */
 /* section add to globals */
+
 /* title add to globals */
 /* section center add to globals */
+.about-image,
+.about-info {
+  margin-bottom: 2rem;
+}
 
+@media screen and (min-width: 990px) {
+  .about-center {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .about-image,
+  .about-info {
+    flex: 0 0 calc(50% - 2rem);
+    align-self: center;
+  }
+}
+
+@media screen and (min-width: 1170px) {
+  .about-image::before {
+    content: "";
+    border: 0.5rem solid var(--clr-primary-5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    top: -1.5rem;
+    left: -1.5rem;
+  }
+  .about-photo {
+    position: relative;
+  }
+
+  .about-image {
+    position: relative;
+  }
+}
 /*
 =============== 
 Services
