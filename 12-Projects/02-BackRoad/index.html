@@ -10,8 +10,47 @@
   </head>
   <body>
     <!-- header  -->
-    <header id="Home">
-      <!-- navbar -->
+    <header id="home">
+      <!-- navbar  -->
+      <nav class="navbar">
+        <div class="nav-center">
+          <!-- nav header  -->
+          <div class="nav-header">
+            <img src="./images/logo.svg" alt="" class="nav-logo" />
+            <button class="nav-toggle" id="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- nav hader end  -->
+          <ul class="nav-links" id="nav-links">
+            <li><a href="#home" class="nav-link scroll-link">Home</a></li>
+            <li><a href="#about" class="nav-link scroll-link">About</a></li>
+            <li>
+              <a href="#services" class="nav-link scroll-link">Service</a>
+            </li>
+            <li><a href="#tour" class="nav-link scroll-link">Tour</a></li>
+            <li><a href="#gallery" class="nav-link scroll-link">Gallery</a></li>
+          </ul>
+          <ul class="nav-icons">
+            <li>
+              <a href="awd" target="_blank" class="nav-icon">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="awd" target="_blank" class="nav-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="awd" target="_blank" class="nav-icon">
+                <i class="fab fa-slack"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- navbar end -->
       <!-- hero -->
       <div class="hero">
         <div class="hero-banner">
@@ -305,7 +344,7 @@
     <!-- footer -->
     <footer class="section footer">
       <ul class="footer-links">
-        <li><a href="#Home" class="footer-link scroll-link">Home</a></li>
+        <li><a href="#home" class="footer-link scroll-link">Home</a></li>
         <li><a href="#about" class="footer-link scroll-link">About</a></li>
         <li><a href="#services" class="footer-link scroll-link">Service</a></li>
         <li><a href="#tour" class="footer-link scroll-link">Tour</a></li>
@@ -330,5 +369,7 @@
       </ul>
       <p class="copyright">copyright &copy; Backroad Ltd.</p>
     </footer>
+
+    <script src="./app.js"></script>
   </body>
 </html>
