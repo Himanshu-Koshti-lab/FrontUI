@@ -233,6 +233,8 @@ space-between space-around
 }
 ```
 
+### 18/01
+
 ## center
 
 most used
@@ -284,6 +286,8 @@ by default order 0
   order: -1;
 }
 ```
+
+### 19/01
 
 # flex-grow
 
